@@ -1,0 +1,23 @@
+<DOCTYPE html>
+    <html>
+        <head>
+            <meta charset="utf-8">
+            <script type="text/javascript">
+                var renta;
+                var renta=prompt("Dime tu renta: ");
+                if (renta<10000){
+                    document.write("5%");
+                    document.write(' a pagar: '+(renta*5/100));
+                }else if(renta>=10000&&renta<=19999){
+                    document.write("15%");
+                }else if(renta>=20000&&renta<=34999){
+                    document.write("20%");
+                }else if(renta>=35000&&renta<=59999){
+                    document.write("30%");
+                }else if(renta>=60000){
+                    document.write("45%");
+                }
+            </script>
+        </head>
+    </html>
+</DOCTYPE>
